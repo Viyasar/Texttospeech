@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+     align-items: center;
+     display: flex;
+    justify-content: center;
+    
+
+}
+.hero{
+    color: white;
+}
+.hero h1 span{
+    color: brown;
+
+}
+textarea{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(71, 101, 91);
+    border: 20px;
+    outline: 20px;
+    background: #5c3d84;
+color:white;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+resize: none;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+button{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:10px 30px;
+    
+}
